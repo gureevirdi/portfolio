@@ -25,7 +25,7 @@ It showcases my projects, skills, education, and contact details.
 
 ## Screenshots
 <!-- If you add a screenshot, keep the next line and make sure the path matches your file -->
-![Portfolio Screenshot](assets/portfolio-screenshot.jpg)
+![Portfolio Screenshot](assets/portfolio-screenshot.png)
 
 ---
 
