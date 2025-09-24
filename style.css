@@ -10,7 +10,9 @@ html{scroll-behavior:smooth}
 html, body { max-width:100%; overflow-x:hidden; }
 body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif}
 .container{max-width:1120px;margin:0 auto;padding:0 1rem}
-
+.tone-pure {
+  background: #feffff !important;
+}
 /* ================= NAV ================= */
 .nav{
   position:fixed; top:12px; left:0; right:0; z-index:1000;
