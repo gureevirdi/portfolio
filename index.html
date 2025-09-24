@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gurpreet Singh Virdi — Portfolio</title>
+  <meta name="description" content="Gurpreet (Zion) — Full-Stack student at Lambton College. Projects, skills, education and contact." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <div class="navbar" role="navigation" aria-label="Primary">
+        <div class="brand">Zion.dev</div>
+
+        <button class="menu-toggle" aria-label="Open menu" aria-controls="nav-drawer" aria-expanded="false">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <nav class="links">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#skills">Skills</a>
+          <a href="#education">Education</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <a class="btn" href="mailto:gureevirdi@gmail.com"><i class="fa-solid fa-paper-plane"></i> Hire Me</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile drawer -->
+  <div id="nav-drawer" class="nav-drawer" role="dialog" aria-modal="true">
+    <nav class="drawer-links">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="btn drawer-cta" href="mailto:gureevirdi@gmail.com">
+      <i class="fa-solid fa-paper-plane"></i> Hire Me
+    </a>
+  </div>
+
+  <main>
+    <section class="hero blobs tone-light">
+      <div class="container hero-grid">
+        <div>
+          <span class="chip"><i class="fa-solid fa-snowflake"></i> Seeking Winter 2026 Co-op</span>
+          <h1>Hi, I’m <span class="accent">Gurpreet Singh Virdi</span></h1>
+          <p class="muted" style="max-width:640px">Full-Stack student at Lambton College. I design clean, accessible interfaces and build small tools while learning JavaScript, SQL/PL-SQL, and Python. Real projects. Honest progress.</p>
+          <div style="margin-top:18px;display:flex;gap:.6rem;flex-wrap:wrap">
+            <a class="btn" href="#projects">See Projects <i class="fa-solid fa-arrow-right"></i></a>
+            <a class="btn ghost" href="#contact"><i class="fa-regular fa-envelope"></i> Get in Touch</a>
+            <!-- Download resume -->
+            <a class="muted" href="assets/Gurpreet_Singh_Virdi_Resume.pdf" download
+               style="align-self:center;text-underline-offset:4px">
+              <i class="fa-regular fa-file-lines"></i> Download Resume
+            </a>
+          </div>
+          <div class="icons" style="margin-top:14px">
+            <a href="https://github.com/c0932560" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/gurpreetsingh55/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="mailto:gureevirdi@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://www.instagram.com/gurpreet_zi/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+        <div style="display:flex;justify-content:center">
+          <div class="portrait">
+            <div class="glow"></div>
+            <div class="frame"></div>
+            <div class="photo">
+              <img src="assets/img.jpg" alt="Gurpreet Singh Virdi">
+            </div>
+            <div class="orbit"><div class="badge"><i class="fa-solid fa-code"></i></div></div>
+            <div class="orbit rev"><div class="badge bolt"><i class="fa-solid fa-bolt"></i></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="tone-blue">
+      <div class="container">
+        <div class="section-head">
+          <h2>About <span class="accent">Me</span></h2>
+          <p class="muted">Different design, same honesty. No copied sections.</p>
+        </div>
+        <div class="grid-3">
+          <div class="card reveal">
+            <h3 style="margin:.2rem 0 0 0">Who I Am</h3>
+            <p class="muted">Full-Stack Software Development student in Ottawa. I enjoy turning ideas into minimal, neat interfaces.</p>
+          </div>
+          <div class="card reveal">
+            <h3 style="margin:.2rem 0 0 0">Current Focus</h3>
+            <p class="muted">Java (SE/EE: OOP, Servlets/JSP) • Data Structures & Algorithms (DSA) • Python • SQL/PL-SQL with APEX • JavaScript DOM • Version control (Git/GitHub)</p>
+          </div>
+          <div class="card reveal">
+            <h3 style="margin:.2rem 0 0 0">Goal</h3>
+            <p class="muted">A Winter 2026 co-op where I can contribute to Java work (Servlets/JSP or simple REST), front-end fixes, SQL scripts, and QA testing—while ramping up quickly.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================== PROJECTS =================== -->
+    <section id="projects" class="tone-light">
+      <div class="container">
+        <div class="section-head">
+          <h2>Selected <span class="accent">Projects</span></h2>
+          <p class="muted">Deployed and in-progress builds. Clear scope, tech, and links.</p>
+          <p class="muted">
+            Tech used across projects: React, JavaScript (ES6+), Node/Express, <strong>REST APIs</strong>, SQL/PL-SQL (Oracle/MySQL), HTML/CSS (Flexbox, Grid), <strong>Git/GitHub</strong>, <strong>OOP</strong>, DSA (learning).
+          </p>
+        </div>
+
+        <!-- Featured / Completed -->
+        <div class="grid-3">
+          <!-- CloudRest (done) -->
+          <div class="card reveal">
+            <div class="project-head">
+              <h3 style="margin:0">CloudRest — Pillow Store UI</h3>
+              <span class="chip success"><i class="fa-solid fa-circle-check"></i> Completed</span>
+            </div>
+            <p class="muted">Responsive e-commerce UI with product cards, cart drawer, and checkout flow.</p>
+            <div>
+              <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span>
+            </div>
+            <ul class="muted" style="margin-top:.5rem;padding-left:1.2rem;font-size:.9rem">
+              <li>Designed responsive layout with Flexbox & Grid</li>
+              <li>Added cart drawer and checkout simulation</li>
+              <li>Deployed with GitHub Pages</li>
+            </ul>
+            <div style="margin-top:.5rem;display:flex;gap:.5rem;flex-wrap:wrap">
+              <a class="btn" href="https://c0932560.github.io/LCOF2461/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+              <a class="btn ghost" href="https://github.com/c0932560/LCOF2461" target="_blank" rel="noopener noreferrer">Source</a>
+            </div>
+          </div>
+
+          <!-- Crypto Tracker (done) -->
+          <div class="card reveal">
+            <div class="project-head">
+              <h3 style="margin:0">Crypto Tracker</h3>
+              <span class="chip success"><i class="fa-solid fa-circle-check"></i> Completed</span>
+            </div>
+            <p class="muted">SPA with API integration: search, sort, compare up to 5 coins in real-time.</p>
+            <div>
+              <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span>
+            </div>
+            <ul class="muted" style="margin-top:.5rem;padding-left:1.2rem;font-size:.9rem">
+              <li>Integrated public crypto API for live data</li>
+              <li>Implemented search, sort, and compare features</li>
+              <li>Styled responsive UI for desktop and mobile</li>
+            </ul>
+            <div style="margin-top:.5rem;display:flex;gap:.5rem;flex-wrap:wrap">
+              <a class="btn" href="https://c0932560.github.io/crypto-tracker/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+              <a class="btn ghost" href="https://github.com/c0932560/crypto-tracker" target="_blank" rel="noopener noreferrer">Source</a>
+            </div>
+          </div>
+
+          <!-- SQL Mini-Library (done) -->
+          <div class="card reveal">
+            <div class="project-head">
+              <h3 style="margin:0">SQL Mini-Library</h3>
+              <span class="chip success"><i class="fa-solid fa-circle-check"></i> Completed</span>
+            </div>
+            <p class="muted">Schema + sample queries for borrows/returns, top readers, and admin reports.</p>
+            <div>
+              <span class="tag">SQL</span><span class="tag">PL/SQL</span>
+            </div>
+            <ul class="muted" style="margin-top:.5rem;padding-left:1.2rem;font-size:.9rem">
+              <li>Designed schema for books, students, and borrows</li>
+              <li>Wrote PL/SQL queries for common library tasks</li>
+              <li>Tested joins and procedures in Oracle APEX</li>
+            </ul>
+            <div style="margin-top:.5rem;display:flex;gap:.5rem;flex-wrap:wrap">
+              <!-- NEED TO ADD LINKS -->
+              <a class="btn" href="#" target="_blank">Repo</a>
+              <a class="btn ghost" href="#" target="_blank">Readme</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- In Progress / Roadmap -->
+        <div class="section-head" style="margin-top:1.25rem">
+          <h3 style="margin:0;font-size:1.25rem">In Progress</h3>
+          <p class="muted">Actively building per co-op stack guidance (React + MERN / C#).</p>
+        </div>
+
+        <div class="grid-3">
+          <!-- React Portfolio -->
+          <div class="card reveal">
+            <div class="project-head">
+              <h3 style="margin:0">Portfolio (React)</h3>
+              <span class="chip warn"><i class="fa-solid fa-spinner"></i> In Progress</span>
+            </div>
+            <p class="muted">Re-implementing this site in React with componentized sections, routing, and dark mode.</p>
+            <div>
+              <span class="tag">React</span><span class="tag">Vite</span><span class="tag">CSS Modules</span>
+            </div>
+            <ul class="muted" style="margin-top:.5rem;padding-left:1.2rem;font-size:.9rem">
+              <li>Break portfolio into reusable React components</li>
+              <li>Add dark/light theme toggle</li>
+              <li>Deploy on Netlify for live demo</li>
+            </ul>
+            <div style="margin-top:.5rem;display:flex;gap:.5rem;flex-wrap:wrap">
+              <a class="btn" href="#" target="_blank">Live (Netlify)</a>
+              <a class="btn ghost" href="#" target="_blank">Source</a>
+            </div>
+          </div>
+
+          <!-- Notes App (MERN) -->
+          <div class="card reveal">
+            <div class="project-head">
+              <h3 style="margin:0)">Notes App (MERN)</h3>
+              <span class="chip warn"><i class="fa-solid fa-spinner"></i> In Progress</span>
+            </div>
+            <p class="muted">Auth + CRUD notes with tags and search. REST API with JWT; deployed on Render.</p>
+            <div>
+              <span class="tag">MongoDB</span><span class="tag">Express</span><span class="tag">React</span><span class="tag">Node</span>
+            </div>
+            <ul class="muted" style="margin-top:.5rem;padding-left:1.2rem;font-size:.9rem">
+              <li>Implement user login & JWT authentication</li>
+              <li>CRUD features for notes with tags & search</li>
+              <li>Deploy full-stack app on Render</li>
+            </ul>
+            <div style="margin-top:.5rem;display:flex;gap:.5rem;flex-wrap:wrap">
+              <a class="btn" href="#" target="_blank">Live (Render)</a>
+              <a class="btn ghost" href="#" target="_blank">Source</a>
+            </div>
+          </div>
+
+          <!-- Student Manager (C# + SQL) -->
+          <div class="card reveal">
+            <div class="project-head">
+              <h3 style="margin:0">Student Manager (C# + SQL)</h3>
+              <span class="chip warn"><i class="fa-solid fa-spinner"></i> In Progress</span>
+            </div>
+            <p class="muted">ASP.NET MVC CRUD for students/courses, validation, EF Core, role-based access.</p>
+            <div>
+              <span class="tag">C#</span><span class="tag">ASP.NET MVC</span><span class="tag">SQL Server</span>
+            </div>
+            <ul class="muted" style="margin-top:.5rem;padding-left:1.2rem;font-size:.9rem">
+              <li>Set up Entity Framework Core with SQL Server</li>
+              <li>Create CRUD for students & courses with validation</li>
+              <li>Implement role-based access (admin vs user)</li>
+            </ul>
+            <div style="margin-top:.5rem;display:flex;gap:.5rem;flex-wrap:wrap">
+              <a class="btn" href="#" target="_blank">Live</a>
+              <a class="btn ghost" href="#" target="_blank">Source</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================== PROJECT EXPERIENCE (updated) =================== -->
+    <section id="experience" class="tone-light">
+      <div class="container">
+        <div class="section-head">
+          <h2>Project <span class="accent">Experience</span></h2>
+          <p class="muted">
+            Hands-on builds demonstrating practical skills and engineering practice — written like real-world contributions.
+            (See <a href="#projects">Projects</a> for live demos and source code.)
+          </p>
+        </div>
+
+        <div class="grid-2">
+          <!-- CloudRest -->
+          <div class="card reveal timeline">
+            <div class="t-item">
+              <h3 style="margin:0">CloudRest — E-Commerce Pillow Store</h3>
+              <p class="muted">HTML, CSS, JavaScript • Completed</p>
+              <ul class="muted" style="padding-left:1rem;margin:.3rem 0">
+                <li>Developed a fully responsive front end with <strong>HTML, CSS, JavaScript</strong>.</li>
+                <li>Implemented interactive product cards, cart drawer, and <strong>checkout flow</strong>.</li>
+                <li>Optimized layout using <strong>Flexbox & Grid</strong>; deployed on <strong>GitHub Pages</strong>.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- CryptoTracker -->
+          <div class="card reveal timeline">
+            <div class="t-item">
+              <h3 style="margin:0">CryptoTracker — Price Monitoring SPA</h3>
+              <p class="muted">JavaScript SPA • Completed</p>
+              <ul class="muted" style="padding-left:1rem;margin:.3rem 0">
+                <li>Built a single-page app that consumes <strong>REST APIs</strong> for real-time crypto prices.</li>
+                <li>Added <strong>search, sort, compare</strong> features; handled async data with <strong>async/await</strong>.</li>
+                <li>Designed a mobile-first, responsive UI for cross-device use.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- SQL Mini-Library -->
+          <div class="card reveal timeline">
+            <div class="t-item">
+              <h3 style="margin:0">SQL Mini-Library</h3>
+              <p class="muted">SQL / PL-SQL • Completed</p>
+              <ul class="muted" style="padding-left:1rem;margin:.3rem 0">
+                <li>Designed and normalized a <strong>relational schema</strong> for books, students, and borrows.</li>
+                <li>Wrote <strong>PL/SQL</strong> joins, procedures, and reporting queries in <strong>Oracle APEX</strong>.</li>
+                <li>Produced admin reports (borrow/return logs, top readers) to demonstrate DB reporting.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Portfolio (React) -->
+          <div class="card reveal timeline">
+            <div class="t-item">
+              <h3 style="margin:0">Portfolio (React)</h3>
+              <p class="muted">React, Vite • In Progress</p>
+              <ul class="muted" style="padding-left:1rem;margin:.3rem 0">
+                <li>Rebuilding the site with <strong>React + Vite</strong> into reusable, performant components.</li>
+                <li>Adding <strong>dark/light</strong> theme, accessible navigation, and route-based sections.</li>
+                <li>Preparing CI/CD deployment on <strong>Netlify / Vercel</strong>.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Notes App (MERN) -->
+          <div class="card reveal timeline">
+            <div class="t-item">
+              <h3 style="margin:0">Notes App (MERN)</h3>
+              <p class="muted">MongoDB, Express, React, Node • In Progress</p>
+              <ul class="muted" style="padding-left:1rem;margin:.3rem 0">
+                <li>Implementing <strong>JWT</strong> auth and protected API routes (<strong>Node + Express</strong>).</li>
+                <li>Building CRUD notes with tags, search, and pagination using <strong>MongoDB</strong>.</li>
+                <li>Planning deployment of backend/frontend on <strong>Render</strong> or similar cloud host.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Student Manager (C#) -->
+          <div class="card reveal timeline">
+            <div class="t-item">
+              <h3 style="margin:0">Student Manager</h3>
+              <p class="muted">C#, ASP.NET MVC, SQL Server • In Progress</p>
+              <ul class="muted" style="padding-left:1rem;margin:.3rem 0">
+                <li>Developing admin CRUD with <strong>ASP.NET MVC</strong> and <strong>Entity Framework Core</strong>.</li>
+                <li>Implementing validation and <strong>role-based access</strong> (admin vs user).</li>
+                <li>Integrating <strong>SQL Server</strong> and seeding sample data for testing.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="tone-blue">
+      <div class="container">
+        <div class="section-head">
+          <h2>Skills</h2>
+          <p class="muted">Growing every day.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Languages -->
+          <div class="flip" style="--h:270"><div class="flip-inner"><div class="front">Java</div><div class="back">OOP, Collections</div></div></div>
+          <div class="flip" style="--h:35"><div class="flip-inner"><div class="front">Python</div><div class="back">Scripting, Files</div></div></div>
+          <div class="flip" style="--h:210"><div class="flip-inner"><div class="front">JavaScript</div><div class="back">DOM, Fetch, Modules</div></div></div>
+          <div class="flip" style="--h:15"><div class="flip-inner"><div class="front">C#</div><div class="back">ASP.NET MVC (intro)</div></div></div>
+
+          <!-- Frameworks / FE -->
+          <div class="flip" style="--h:260"><div class="flip-inner"><div class="front">React</div><div class="back">Components, Hooks, Routing</div></div></div>
+          <div class="flip" style="--h:190"><div class="flip-inner"><div class="front">HTML/CSS</div><div class="back">Flexbox, Grid, Forms</div></div></div>
+          <div class="flip" style="--h:125"><div class="flip-inner"><div class="front">Responsive UI</div><div class="back">Mobile-first, A11y</div></div></div>
+
+          <!-- Backend / APIs -->
+          <div class="flip" style="--h:205"><div class="flip-inner"><div class="front">Node.js</div><div class="back">npm, Scripts</div></div></div>
+          <div class="flip" style="--h:170"><div class="flip-inner"><div class="front">Express.js</div><div class="back">REST APIs, Middleware</div></div></div>
+          <div class="flip" style="--h:10"><div class="flip-inner"><div class="front">APIs</div><div class="back">JSON, Status Codes</div></div></div>
+          <div class="flip" style="--h:205"><div class="flip-inner"><div class="front">REST</div><div class="back">Resources, Verbs, Auth (basic)</div></div></div>
+
+          <!-- Databases -->
+          <div class="flip" style="--h:160"><div class="flip-inner"><div class="front">SQL / PL-SQL</div><div class="back">Joins, Procs, Triggers</div></div></div>
+          <div class="flip" style="--h:140"><div class="flip-inner"><div class="front">Oracle APEX</div><div class="back">Forms, Reports</div></div></div>
+          <div class="flip" style="--h:145"><div class="flip-inner"><div class="front">MySQL</div><div class="back">Schemas, Queries</div></div></div>
+
+          <!-- Tooling / Workflow -->
+          <div class="flip" style="--h:300"><div class="flip-inner"><div class="front">Git & GitHub</div><div class="back">Branches, PRs, Reviews</div></div></div>
+          <div class="flip" style="--h:320"><div class="flip-inner"><div class="front">VS Code / Tooling</div><div class="back">Extensions, Formatters</div></div></div>
+          <div class="flip" style="--h:80"><div class="flip-inner"><div class="front">Linux Basics</div><div class="back">Shell, grep/find</div></div></div>
+          <div class="flip" style="--h:45"><div class="flip-inner"><div class="front">Debugging</div><div class="back">Console, Breakpoints</div></div></div>
+          <div class="flip" style="--h:115"><div class="flip-inner"><div class="front">Testing / QA</div><div class="back">Test cases, Bug reports</div></div></div>
+
+          <!-- Foundation -->
+          <div class="flip" style="--h:260"><div class="flip-inner"><div class="front">OOP</div><div class="back">Encapsulation, Inheritance</div></div></div>
+          <div class="flip" style="--h:135"><div class="flip-inner"><div class="front">Problem Solving</div><div class="back">Break tasks, Iterate</div></div></div>
+          <div class="flip" style="--h:90"><div class="flip-inner"><div class="front">Cloud Basics</div><div class="back">Deploy, Static hosting</div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="tone-light">
+      <div class="container">
+        <div class="section-head"><h2>Education</h2></div>
+        <div class="grid-2">
+          <div class="card reveal timeline">
+            <div class="t-item">
+              <h3 style="margin:0">Lambton College, Ottawa</h3>
+              <p class="muted">Full-Stack Software Development • Sep 2024 – Sep 2026</p>
+              <ul class="muted" style="padding-left:1rem;margin:.3rem 0">
+                <li>Frontend: HTML/CSS/JavaScript basics, DOM manipulation</li>
+                <li>Backend: Node.js, APIs, C# .NET (Web Apps)</li>
+                <li>Programming: Java SE & EE, Python, Data Structures & Algorithms (DSA)</li>
+                <li>Databases: MySQL, PL/SQL with APEX</li>
+                <li>Cloud & DevOps: fundamentals, tools & practices</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card reveal">
+            <h3 style="margin-top:0">Highlights</h3>
+            <ul class="muted" style="padding-left:1rem">
+              <li>Built <strong>CloudRest</strong> — an e-commerce UI with product cards, cart and checkout flow</li>
+              <li>Developed <strong>Crypto Tracker</strong> — a SPA using public API for live cryptocurrency data</li>
+              <li>Hands-on practice with multiple mini projects across JavaScript, SQL, and Python</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="grid-2" style="margin-top:2rem">
+          <div class="card reveal timeline">
+            <div class="t-item">
+              <h3 style="margin:0">Punjabi University, Patiala</h3>
+              <p class="muted">Bachelor of Computer Applications • India</p>
+              <ul class="muted" style="padding-left:1rem;margin:.3rem 0">
+                <li>Year 1: C, Data Structures, Basic Mathematics, Digital Electronics</li>
+                <li>Year 2: Discrete Mathematics, C++, DBMS, RDBMS (Oracle)</li>
+                <li>Year 3: Java, Web Designing (HTML & DHTML), Software Engineering</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card reveal">
+            <h3 style="margin-top:0">Highlights</h3>
+            <ul class="muted" style="padding-left:1rem">
+              <li>Created a news website <strong>IndiaAllNews (IAN)</strong> during a 15-day workshop and won <strong>1st Prize</strong></li>
+              <li>Developed a <strong>College Student Management System</strong> as a final 3rd year project, using Java + SQL to manage student data and reports</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="tone-blue">
+      <div class="container">
+        <div class="section-head">
+          <h2>Contact</h2>
+          <p class="muted">Let’s chat about co-op or collaboration.</p>
+        </div>
+        <div class="grid-2">
+          <div class="card reveal">
+            <h3 style="margin-top:0">Write me</h3>
+            <p><i class="fa-solid fa-envelope"></i> <a class="muted" style="text-underline-offset:4px" href="mailto:gureevirdi@gmail.com">gureevirdi@gmail.com</a></p>
+            <p><i class="fa-brands fa-linkedin"></i> <a class="muted" style="text-underline-offset:4px" href="https://www.linkedin.com/in/gurpreetsingh55/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+            <p><i class="fa-brands fa-github"></i> <a class="muted" style="text-underline-offset:4px" href="https://github.com/c0932560" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+            <p><i class="fa-brands fa-instagram"></i> <a class="muted" style="text-underline-offset:4px" href="https://www.instagram.com/gurpreet_zi/" target="_blank" rel="noopener noreferrer">Instagram</a></p>
+          </div>
+          <div class="card reveal">
+            <h3 style="margin-top:0">What I bring</h3>
+            <ul class="muted" style="padding-left:1rem">
+              <li>Reliable, calm under pressure (managing night + double shifts)</li>
+              <li>Clear communication and eagerness to learn quickly</li>
+              <li>Strong eye for tidy UI & accessibility</li>
+              <li>Team player — open to feedback and collaboration</li>
+              <li>Problem-solver — comfortable debugging and finding fixes</li>
+              <li>Adaptable — able to switch between Java, SQL, and front-end tasks</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">© <span id="yr"></span> Gurpreet Singh Virdi — Designed uniquely for Zion.</div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
