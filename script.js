@@ -40,12 +40,15 @@ function applyScrolledClass() {
 applyScrolledClass();
 window.addEventListener('scroll', applyScrolledClass, { passive: true });
 
-// ---------- Smooth anchor scroll with fixed-header offset ----------
+// ---------- Smooth anchor scroll with fixed-header + optional extra offset ----------
 function smoothScrollToId(id) {
   const target = document.getElementById(id);
   if (!target) return;
+
   const offset = getNavOffset();
-  const y = target.getBoundingClientRect().top + window.pageYOffset - offset + 1;
+  const extra = parseInt(target.dataset.extraOffset || '0', 10); // per-section cushion
+  const y = target.getBoundingClientRect().top + window.pageYOffset - offset - extra;
+
   window.scrollTo({ top: y, behavior: 'smooth' });
 }
 
